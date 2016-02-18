@@ -1,0 +1,16 @@
+Assumption:
+1. No stop sign.
+2. The traffic light have 3 states green, turn left and red.
+3. Two lanes on each side
+4. The car can stop and start immediately
+5. Assume each queue have infinity capacity
+6. The is a constant time for each car to cross the intercetion
+
+
+Element
+1. car
+2. lane
+3. light
+4. junction
+
+Input

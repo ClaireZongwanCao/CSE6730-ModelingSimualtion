@@ -1,0 +1,16 @@
+#sync flag: 0 for unsync, 1 for sync
+1
+#no. of cars
+700
+#no. of time units
+800
+#green time
+5
+#left green time
+3
+#intersection delay
+3
+#diff21, put arbit vals if not sync
+0
+#diff32, put arbit vals if not sync
+0

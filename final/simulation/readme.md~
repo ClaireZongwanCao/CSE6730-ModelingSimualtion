@@ -1,0 +1,20 @@
+CSE 6730 first check point submission
+=======================
+
+Compiling
+======
+
+Just run the make file. It should produce two executables: generate_input and simulation. 
+
+Executing
+======
+
+generate_input is used to generate a test file for the simulation. It takes as input number of cars in the system and number of time units in which to simulate the system. The file produced is fed to the executable "simulation". It will produce a log file for the trajectory of different vehicles. 
+
+Although not required, the format for the input file for the simulation executable is described below, in case you may wish to make your own input files. 
+
+First line contains the number of cars in the system (=m).
+Second line contains the time delay at each intersection (not used as of now)
+It is followed by "m" lines. Each line has the following format:
+
+Car_id	Entering time	Source_lane	destination_lane
